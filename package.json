@@ -10,14 +10,14 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-native-web": "^0.12.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
